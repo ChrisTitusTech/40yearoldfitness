@@ -1,6 +1,12 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+date: {{ now.Format "2006-01-02" }}
+draft: false
 ---
 
+
+
+
+
+
+{{< youtube ZJthWmvUzzc >}}
