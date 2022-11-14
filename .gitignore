@@ -1,0 +1,7 @@
+# ignore all logs
+.vscode/
+public/
+*.log
+.env
+*.sh
+.DS_Store
