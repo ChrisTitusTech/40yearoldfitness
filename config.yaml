@@ -1,0 +1,88 @@
+baseURL: https://40yearoldfitness.com
+languageCode: en-us
+defaultContentLanguage: en
+title: 40 Year Old Fitness
+theme: cupper-hugo-theme
+googleAnalytics: UA-123456789-1
+disqusShortname:
+enableGitInfo: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  post: /:filename/
+
+imaging:
+  quality: 90
+
+params:
+  description: A 40 year old's journey from an unhealthy lifestyle to a healthy one. 
+  homeMetaContent: from fat to fit
+  footer: 
+  # For more date formats see https://gohugo.io/functions/format/
+  dateFormat: Jan 2, 2006
+  codePenUser: ChrisTitusTech
+  katex: true
+  hideHeaderLinks: false
+  search: true
+  showThemeSwitcher: true
+  defaultDarkTheme: true
+  moveFooterToHeader: false
+  # navTitleText: Cupper Theme
+  logoAlt: An alternative text description of the logo
+  customCss:
+    - css/custom_01.css
+    - css/custom_02.css
+  customJs:
+    - js/custom_01.js
+    - js/custom_02.js
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Fitness Blog
+      url: /post/
+      weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
+    - name: About
+      url: /about/
+      weight: 4
+    - name: RSS
+      url: /index.xml
+      weight: 5
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: monokai
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
