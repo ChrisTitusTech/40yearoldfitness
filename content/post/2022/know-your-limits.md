@@ -10,10 +10,13 @@ For my first at home workout with a barbell, this lesson has to be taken serious
 ## Workout of the Day
 
 12 Minute EMOM (Every Minute on the Minute)
+
 - [x] 1 Snatch - 4 Overhead Squat
 - [x] 1 Snatch - 3 Overhead Squat
 - [x] 1 Snatch - 2 Overhead Squat
 - [x] 1 Snatch - 1 Overhead Squat
+
+Normal Lifts 3 Sets of 3 Reps
 
 - [x] 3x3 Snatch Grip Push Press
 - [x] 3x3 Snatch Balance
