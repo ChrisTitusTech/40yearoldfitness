@@ -1,7 +1,7 @@
 baseURL = "https://40yearoldfitness.com/"
 author = "Chris Titus"
 copyright = ""
-paginate = 3
+paginate = 5
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
